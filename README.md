@@ -1,14 +1,7 @@
-# NEW_PACKAGE
+# hypha-services
 
-This repository serves only as a Python template for new projects.
+Repository for hypha services
 
-## Create a new repository
-
-- Create a [new repository](https://github.com/new) and select `imjoy-team/imjoy-python-template` as template repository.
-- Clone your new repository.
-- Search and replace all occurrences of `NEW_PACKAGE`. Replace `NEW_PACKAGE` with the name of the new repository.
-- Add package requirements in `install_requires` in [`setup.py`](setup.py) and in [`requirements.txt`](requirements.txt) as needed.
-- Update this `README.md` with a description and instructions for your new repository.
 
 ## Development
 
@@ -57,7 +50,7 @@ It will also install this package in development mode, so that code changes are 
 - Run pytest and calculate coverage for the package.
 
   ```sh
-  pytest --cov-report term-missing --cov=NEW_PACKAGE
+  pytest --cov-report term-missing --cov=hypha_services
   ```
 
 - Continuous integration is by default supported via [GitHub actions](https://help.github.com/en/actions). GitHub actions is free for public repositories and comes with 2000 free Ubuntu build minutes per month for private repositories.
