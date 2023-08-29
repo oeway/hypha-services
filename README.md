@@ -2,6 +2,12 @@
 
 Repository for hypha services
 
+There are also additional services provided by the [hypha-services] module:
+| id                                            | Name              | Description       | Permission |
+| --------------------------------------------- | ----------------- | -----------------  | ---------- |
+| public/*:function-launcher     | Function Launcher | For running Functions in the cluster                   | login required       |
+| public/*:coturn                | coturn            | For getting ICE server for webrtc communication                   | login required       |
+| public/*:container-launcher     | Container Launcher| For managing containers running on the server side                   | login required      |
 
 ## Development
 
